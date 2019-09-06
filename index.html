@@ -8,7 +8,26 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Resume - Start Bootstrap Theme</title>
+  <!-- Fav Icon declarations from https://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Resume - Mel Riffe</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +46,9 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Clarence Taylor</span>
+      <span class="d-block d-lg-none">Mel Riffe</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/ProfilePic.jpeg" alt="Mel Riffe">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,16 +63,13 @@
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Side Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li>
       </ul>
     </div>
@@ -63,25 +79,19 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Clarence
-          <span class="text-primary">Taylor</span>
+        <h1 class="mb-0">Mel
+          <span class="text-primary">Riffe</span>
         </h1>
-        <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-          <a href="mailto:name@email.com">name@email.com</a>
+        <div class="subheading mb-5">Richmond, VA · (804) 803-1452 ·
+          <a href="mailto:mel@juicyparts.com">mel@juicyparts.com</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+        <p class="lead mb-5">I'm a Software Craftsman living near Richmond, VA. I own and operate Juicy Parts Software, LLC, where I work closely with clients to build the right solutions. I'm  also the former organizer of the Central Virginia Ruby Enthusiasts Group, Richmond's premier Ruby Users Group. When I'm not writing code, I spend time with my beautiful family. I'm also an avid Detroit Red Wings Fan.</p>
         <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="#">
+          <a href="https://github.com/melriffe" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/insanity_rocks" target="_blank">
             <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
           </a>
         </div>
       </div>
@@ -95,50 +105,383 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <h3 class="mb-0">Owner/Operator</h3>
+            <div class="subheading mb-3">Juicy Parts Software, LLC</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Ruby; Ruby on Rails; PHP; MySQL; PostgreSQL; Oracle; JavaScript; EmberJS; HTML/CSS; GnuPG; Redis
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Led and designed project to convert Flash front-end to EmberJS, to include the generation of a JSONAPI-compliant Rails API</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved auditing capabilities by moving implementation to database stored procedures</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved quarterly deliverable process by leveraging MySQL relational database</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved PDF Report generation by improving SQL queries and PDF generation</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Converted C-based “encounter” claims processing functionality into Ruby equivalent</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Led development team working on a Flash front-end/Rails back-end medical claims processing application</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Worked closely with remote teams implementing SecureMyEmail&trade; Clients</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Integrated GnuPG functionality into SecureMyEmail&trade; API</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Designed and lead team to implement SecureMyEmail&trade; back-end services and API</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Designed and lead team to upgrade order fulfillment Rails application for personal security business</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Enhanced Rails application focused on order fulfillment and customer management for personal security business</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Enhanced and extended a Rails application focused on the management of equipment rentals, to include delivery services</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Created Rails application to provide a central, community-focused repository for the International Law community</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Extended Rails application focused on Tutoring administration</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Maintained Rails application focused on job search resources for doctorate holders</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Extended Rails application focused on administering Charlotte Mason homeschooling methodology</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Extended Rails application for community of grief-stricken children regarding Safety Alerts</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved Ruby application to load auction data into Drupal website</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Maintained Rails application for local Legal Document Serving business</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Developed HR-focused PHP application accessing Oracle database</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Enhanced PHP applications for marketing department of local telecommunications business</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Extended Rails application for university library accessing PostGIS database</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
+            <span class="text-primary">March 2008 - Present</span>
+            <p>Richmond, VA</p>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <h3 class="mb-0">Sr Consultant</h3>
+            <div class="subheading mb-3">Carlisle & Gallagher Consulting Group</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; WebSphere
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Oversaw management of several testing projects, to include budgeting, finances, and staffing, for national financial institution</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Worked with remote team on design of web services capabilities for national financial institution</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
+            <span class="text-primary">December 2007 – March 2008</span>
+            <p>Richmond, VA</p>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Junior Web Designer</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            <h3 class="mb-0">Sr Software Developer</h3>
+            <div class="subheading mb-3">Shaw Systems Associates, Inc.</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; CruiseControl; Jira; Eclipse; Maven
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Administered CruiseControl farm containing over 40 projects across 6 servers covering the building, testing, and deploying of application artifacts and testing sites</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Supported the developer community’s use of Maven and Eclipse to build and test client application by extending client-specific plug-ins and extensions</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Shared JIRA expertise to include administering production instance, suggesting best practices with regards to Security and Workflow, and assisting in product upgrades</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
+            <span class="text-primary">September 2006 – November 2007</span>
+            <p>Richmond, VA</p>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            <h3 class="mb-0">Sr Software Engineer</h3>
+            <div class="subheading mb-3">Upstate, Inc.</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; MS SQL Server; Ruby; Ruby on Rails; Jira; Confluence; Scrum; Agile
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Managed and developed Java-based Laboratory Information Management System (LIMS) application for Kinase Profiling laboratory</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Managed and developed for Java-based LIMS application for Cell Culture Activities laboratory</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Created Ruby on Rails application to improve throughput of Kinase Profiling laboratory</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented Scrum for software development projects</li>
+            </ul>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
+            <span class="text-primary">August 2004 - September 2006</span>
+            <p>Charlottesville, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sr Software Engineer</h3>
+            <div class="subheading mb-3">RWD Technologies</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; Oracle; JDBC; SQL; Crystal Reports Reporting Engine
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Extended and enhanced base distant learning product</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented migration tool to move existing customers to new product</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved database efficiencies by reworking schema and SQL queries</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2003 - August 2004</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IT Consultant (Programmer/Analyst)</h3>
+            <div class="subheading mb-3">Stopka & Associates</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; JRun Application Server; WebLogic Application Server; Ant; Maven
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Migrated national financial institution’s call center scripting application to WebLogic</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented component to allow Customer Service Agents, of a national financial institution, access to customer records</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2002 - May 2003</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sr Software Engineer</h3>
+            <div class="subheading mb-3">RWD Technologies</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; Windows CE; ActiveX; COM
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented “Instructor Led” support in distance learning application</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Improved integration between offline player and Internet Explorer component</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2001 - May 2002</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">IT Consultant (Programmer/Analyst)</h3>
+            <div class="subheading mb-3">Stopka & Associates</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Java; Oracle
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented Mini-Solicitation management system</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Designed and implemented underlying Oracle database</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2001 - September 2001</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sr Developer</h3>
+            <div class="subheading mb-3">Experient Technologies</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Windows CE; Java
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Ported distance learning offline player to Windows CE platform</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">December 2000 - April 2001</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sr Solutions Engineer</h3>
+            <div class="subheading mb-3">Distributed Objex</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              Rational Unified Process (RUP); Unified Modeling Language (UML)
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Implemented RUP in title insurance business</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Taught Object-Oriented technology and project management for financial institution</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2000 - December 2000</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Systems Consultant (Programmer/Analyst)</h3>
+            <div class="subheading mb-3">Compuware Corporation</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              VisualAge Smalltalk; C/C++; Visual Basic; ODBC
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Certified Smalltalk applications as “Y2K Compliant” for national financial institution</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Developed interactive voice response (IVR) applications for national financial institution</li>
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Created test data gathering/generation tool accessing Unisys backend</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 1997 - April 2000</span>
+            <p>Richmond, VA</p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineer</h3>
+            <div class="subheading mb-3">Gateway Systems Corp.</div>
+            <h4 class="mb-0">Technologies</h4>
+            <p>
+              DigiTalk Visual Smalltalk Enterprise; C/C++; Raima Database Manager
+            </p>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fas fa-long-arrow-alt-right"></i>
+                Worked closely with clients to implement, and support, their required changes to a Sales Force Automation application written in Smalltalk</li>
+            </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 1993 - August 1997</span>
+            <p>East Lansing, MI</p>
           </div>
         </div>
 
       </div>
+    </section>
 
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Side Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Flat</h3>
+            <div class="subheading mb-3">Ruby gem for the processing of flat files.</div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Capistrano-rpush</h3>
+            <div class="subheading mb-3">Capistrano 3 plugin to manage rpush instances during deployments.</div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Central Virginia Ruby Enthusiasts Group (CVREG)</h3>
+            <div class="subheading mb-3">Richmond, VA Ruby Users Group</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2008 - 2013</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <hr class="m-0">
@@ -149,24 +492,21 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0">J. Sargeant Reynolds Community College</h3>
+            <div class="subheading mb-3">Associate of Applied Arts Degree in Music</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary">June 2008 - August 2008</span>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 class="mb-0">Mott Community College</h3>
+            <div class="subheading mb-3">Computer Application Technician; Electronics Techology</div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
+            <span class="text-primary">June 1992 - August 1993</span>
           </div>
         </div>
 
@@ -180,105 +520,43 @@
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul>
+        <p>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Ruby; Ruby on Rails</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              MySQL; PostgreSQL; SQL</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              EmberJS; HTML/CSS/JavaScript</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Atlassian Tools (JIRA, Confluence, Bamboo, BitBucket)</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Git; GitHub; Git Flow</li>
+          </ul>
+        </p>
 
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
+            Agile Development &amp; Scrum</li>
           <li>
             <i class="fa-li fa fa-check"></i>
             Cross Functional Teams</li>
           <li>
             <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
+            Test-Driven/Behavior-Driven Development (TDD/BDD)</li>
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
+            <i class="fa-li fa fa-check"></i>
+            Object-Oriented Analysis &amp; Design (OOAD)</li>
           <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
+            <i class="fa-li fa fa-check"></i>
+            Object Relational Database Design</li>
         </ul>
       </div>
     </section>
