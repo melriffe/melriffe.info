@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mriffe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://melriffe.info
+  * I am mriffe (https://keybase.io/mriffe) on keybase.
+  * I have a public key with fingerprint 969D 4A5E 57B6 ACF6 786E  4C99 B302 4828 6251 F6B9
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010181274125f2cd9cf8bff7c3c10c6fad93feffafc391f2f965c30370334abca1600a",
+      "fingerprint": "969d4a5e57b6acf6786e4c99b30248286251f6b9",
+      "host": "keybase.io",
+      "key_id": "b30248286251f6b9",
+      "kid": "010181274125f2cd9cf8bff7c3c10c6fad93feffafc391f2f965c30370334abca1600a",
+      "uid": "bb7b584de7c8ca6105ae73aabd70a800",
+      "username": "mriffe"
+    },
+    "service": {
+      "hostname": "melriffe.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1568774372,
+  "expire_in": 157680000,
+  "prev": "26d30634c68f2680442091222b7c1ac606446b6135e36c07c3601b9a2e3af89d",
+  "seqno": 41,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSBVRFL03tVASI7/KXk6EVCJnXmdmrllQhj8llZRZ2eWcM+fcO6l3
+rjNztQijIM0KIkgyiKIXlYn60YPEH7uFEYmmRAXRR/mAHtCDosKozlj+9dnX4ey9
+1tprbfa9zJRARnBTavRQU597NfjwTmsiUHng1OheAdvmHiG0V6iikw+tNqnrhass
+UwgJQASiLkqaIkoqk4hpEKZjxjQiExEQyJBpyIwyhhiRDZFJzIAqkYGsAVlWECZI
+hAAgIV9gVixCnbhjxTwua0DDVJBKVQ1DRBjUdEgVYhhYBpKiSzqUVJFBbHBi1HZ9
+BjeHkUsLLJvX+Cc8ae8f+P/sO/FnDtawqism1YhOEBSBiqgmI4RNDSAdAB/oUieG
+aihH1zgWY1RoyBd4rc4i1F+rn2OqT6snEQVWjPlx4o7t2cSu5q2o58XdkE/19sR9
+bD3F4b8qYWzFTL5GzqijjmvZMSEkciTxLF9WVKGuaYqsSfkC3R23HBq2fISqQe4Q
+AH8OreOSEjRlAGWFQJ1JvKcoEjBESZKwRkREIICKAjEUZZXKkAC+MwhEbCCJyojp
+hin4uWpjthBSRO4TRbima0ViyEs4PHWyd0dqIJgRmJ42zb+vQEb6rKmra9Vn/CpP
+fjzzc/XgOze3++buswvnjrTnLSyrvTbtdt+W2RORk8lnrxJfUPP63kXk08D4/i1F
+9avmtdQ3qp/Ty4cXVHbknng52Nw1tjm34sjX9te956NO/7NbpVkDI6ekmfXfVgb7
+ao4p772uFZdPDxa+ToL7dsrjN8+XNcxPBW3jE2U9Rudox/exzJasrUt7LvZnBOL7
+9j+5kbdrvDqyPedcct3x0iWXmuShkZG7bd3NpdGjxVerCic2jKHl1xvB5hLvXPmL
+xWtrHx0YiGM052Ihnt1wf97owYoXdzLBzrycw9vK5tf1h4bGf1zKLllzIftD2twH
+s650Km9DG4dbmrSnOws704uLvN91OkJ4
+=5eYO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mriffe
+
+==================================================================
